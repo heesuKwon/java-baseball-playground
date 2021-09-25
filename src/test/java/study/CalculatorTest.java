@@ -44,7 +44,7 @@ public class CalculatorTest {
         System.setOut(new PrintStream(out));
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
-        assertEquals(10, cal.calculator());
+        assertEquals(10, cal.start());
     }
 
 }
